@@ -1,5 +1,5 @@
 csv_encoding = "windows_1258"
-csv_separator = ';'
+csv_separator = ','
 
 input_file = "data/example/data.csv"
 filters_file = "data/example/filters.csv"

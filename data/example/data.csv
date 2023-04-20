@@ -1,6 +1,6 @@
-Date;Recipient;Purpose;Amount (USD)
-19/11/20;Superstore;Thank you for shopping at Superstore!;83.62
-18/11/20;Torgot;;72.48
-15/11/20;PayPal;Your monthly Netflix subscription;9.99
-7/11/20;Torgot;;143.35
-01/11/20;John Doe;Monthly Rent;941.5
+Date,Recipient,Purpose,Amount (USD)
+19/11/20,Superstore,Thank you for shopping at Superstore!,83.62
+18/11/20,Torgot,,72.48
+15/11/20,PayPal,Your monthly Netflix subscription,9.99
+7/11/20,Torgot,,143.35
+01/11/20,John Doe,Monthly Rent,941.5

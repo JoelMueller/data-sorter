@@ -1,4 +1,4 @@
-Recipient;Purpose;Category
-Superstore;;Cost of Living
-;Netflix;Recreation
-;Rent;Rent
+Recipient,Purpose,Category
+Superstore,,Cost of Living
+,Netflix,Recreation
+,Rent,Rent
