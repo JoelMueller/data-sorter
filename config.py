@@ -1,15 +1,17 @@
-csv_encoding = ""
-csv_separator = ''
+csv_encoding = "windows_1258"
+csv_separator = ';'
 
-input_file = ""
-filters_file = ""
-output_file = ""
+input_file = "data/example/data.csv"
+filters_file = "data/example/filters.csv"
+output_file = "data/example/data_out.csv"
 
-who_str = ""
-what_str = ""
-amount_str = ""
-filter_who_str = ""
-filter_what_str = ""
-filter_tag_str = ""
-tag_other_str = ""
-tags = []
+who_str = "Recipient"
+what_str = "Purpose"
+amount_str = "Amount (USD)"
+filter_who_str = "Recipient"
+filter_what_str = "Purpose"
+filter_tag_str = "Category"
+tag_other_str = "Other"
+tags = ["Cost of Living",
+        "Recreation",
+        "Rent"]
