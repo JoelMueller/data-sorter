@@ -7,7 +7,9 @@ output_file = ""
 
 who_str = ""
 what_str = ""
+amount_str = ""
 filter_who_str = ""
 filter_what_str = ""
 filter_tag_str = ""
 tag_other_str = ""
+tags = []
