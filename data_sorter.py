@@ -36,13 +36,13 @@ class DataSorter:
         self.tag_frame.pack(side="top", fill="x", expand=True)
 
         self.amount_label = tk.Label(self.amount_frame, text=(config.amount_str + ':'),
-                                     anchor="w", width=10)
+                                     anchor="w", width=12)
         self.who_label = tk.Label(self.who_frame, text=(config.filter_who_str + ':'),
-                                  anchor="w", width=10)
+                                  anchor="w", width=12)
         self.what_label = tk.Label(self.what_frame, text=(config.filter_what_str + ':'),
-                                   anchor="w", width=10)
+                                   anchor="w", width=12)
         self.tag_label = tk.Label(self.tag_frame, text=(config.filter_tag_str + ':'),
-                                  anchor="w", width=10)
+                                  anchor="w", width=12)
 
         self.who_text = ""
         self.what_text = ""
