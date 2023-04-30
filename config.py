@@ -1,9 +1,5 @@
-csv_encoding = "windows_1258"
-csv_separator = ','
-
-input_file = "data/example/data.csv"
-filters_file = "data/example/filters.csv"
-output_file = "data/example/data_out.csv"
+from dataclasses import dataclass
+from typing import List
 
 who_str = "Recipient"
 what_str = "Purpose"
@@ -15,3 +11,22 @@ tag_other_str = "Other"
 tags = ["Cost of Living",
         "Recreation",
         "Rent"]
+
+
+@dataclass
+class DataSorterConfig:
+    csv_encoding: str
+    csv_separator: str
+
+    input_file: str
+    output_file: str
+    filters_file: str
+
+    who_str: str
+    what_str: str
+    amount_str: str
+    filter_who_str: str
+    filter_what_str: str
+    filter_tag_str: str
+    tag_other_str: str
+    tags: List[str]

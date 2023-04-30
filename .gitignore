@@ -1,5 +1,5 @@
 # Repository-specific files / directories
-data/
+data/**
 config.py
 
 # Byte-compiled / optimized / DLL files
