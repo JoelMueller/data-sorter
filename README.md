@@ -1,5 +1,7 @@
 # DataSorter
 
+![Pylint Badge](https://github.com/JoelMueller/data-sorter/actions/workflows/pylint.yml/badge.svg)
+
 DataSorter is a simple tool for quickly sorting large amounts of data into categories. It scans a data table row by row and, based on a set of filters, assigns a tag to each row. If no filter matches a given row, it lets the user add a new filter with a few simple clicks.
 
 ## Dependencies
