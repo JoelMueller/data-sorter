@@ -20,8 +20,6 @@ class DataSorter:
 
         self.setup_gui(self.number_of_rows)
 
-        self.start()
-
     def setup_gui(self, number_of_rows: int):
         self.window = tk.Tk()
         self.window.title("Data Sorter")
